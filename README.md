@@ -1,9 +1,11 @@
 # Azure-MLOps Template Hub for Manufacturing
 
-ML development lifecycle
+**ML development lifecycle**
+
 ![ml-lifecycle](https://github.com/microsoft/MLOpsPython/raw/master/docs/images/ml-lifecycle.png)
 
-DevOps for Machine Learning (MLOps)
+**DevOps for Machine Learning (MLOps)**
+
 ![MLOps](MLOps.PNG)
 
 [Azure ML services](https://azure.microsoft.com/en-us/services/machine-learning/) and [Azure MLOps](https://azure.microsoft.com/en-us/services/machine-learning/mlops/) provide solutions of ML/AL lifecycle. And [MLOpsPython](https://github.com/microsoft/MLOpsPython) is a template of code and pipeline definitions for a Azure machine learning project that show how to automate an end to end ML/AI workflow.
@@ -30,9 +32,8 @@ The Root Template is [MLOpsPython](https://github.com/microsoft/MLOpsPython). Al
 * SKLearn for Classification/Regression
 * Anormaly detection
 
-### Industrial Templates
+#### Industrial Templates [TODO]
 * Quality assurance - Printed circuit board 
 * Safety - Helmet Detection
 * Supply Chain Forecast
 * Defect dectection/classification
-...
