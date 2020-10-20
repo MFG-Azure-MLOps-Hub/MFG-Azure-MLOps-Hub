@@ -11,7 +11,7 @@
 [Azure ML services](https://azure.microsoft.com/en-us/services/machine-learning/) and [Azure MLOps](https://azure.microsoft.com/en-us/services/machine-learning/mlops/) provide solutions of ML/AL lifecycle. And [MLOpsPython](https://github.com/microsoft/MLOpsPython) is a template of code and pipeline definitions for a Azure machine learning project that show how to automate an end to end ML/AI workflow.
 
 ## CLI Tool
-This hub offers a [CLI](https://github.com/MFG-Azure-MLOps-Hub/CLI) tool to simplify the deployment the template into Azure ML services and Azure DevOps. Here is a [document in MLOpsPython repository](https://github.com/microsoft/MLOpsPython/blob/master/docs/getting_started.md) to teach how to create the Azure DevOps project by manual, The [CLI](https://github.com/MFG-Azure-MLOps-Hub/CLI) tool provide a command to build it automatically. see [CLI readme] (https://github.com/MFG-Azure-MLOps-Hub/CLI).
+This hub offers a [CLI](https://github.com/MFG-Azure-MLOps-Hub/CLI) tool to simplify the deployment the template into Azure ML services and Azure DevOps. Here is a [document in MLOpsPython repository](https://github.com/microsoft/MLOpsPython/blob/master/docs/getting_started.md) to teach how to create the Azure DevOps project by manual, The [CLI](https://github.com/MFG-Azure-MLOps-Hub/CLI) tool provide a command to build it automatically. see [CLI readme](https://github.com/MFG-Azure-MLOps-Hub/CLI).
 
 ```
 python hub_install.py  --org_url https://dev.azure.com/your_org 
@@ -19,8 +19,8 @@ python hub_install.py  --org_url https://dev.azure.com/your_org
                          --source_repo_url https://github.com/MFG-Azure-MLOps-Hub/MLOpsImgClass.git
 ```
 
-## Template
-As a hub to provide templates for industrial solution, the templates are orginized in multiple layers and tempates can reused as **base template** to make the template can focus on AI/ML algorithmn, data and business scenario.
+## Templates
+As a hub to provide templates for industrial solution, the templates are orginized in multiple layers and templates can reused as **base template** to make the template can focus on AI/ML algorithmn, data and business scenario.
 
 #### Root Template
 The Root Template is [MLOpsPython](https://github.com/microsoft/MLOpsPython). All the templates in this hub are extended from it.
@@ -37,3 +37,11 @@ The Root Template is [MLOpsPython](https://github.com/microsoft/MLOpsPython). Al
 * Safety - Helmet Detection
 * Supply Chain Forecast
 * Defect dectection/classification
+
+### References
+
+- [Azure Machine Learning (Azure ML) Service Workspace](https://docs.microsoft.com/en-us/azure/machine-learning/service/overview-what-is-azure-ml)
+- [Azure ML CLI](https://docs.microsoft.com/en-us/azure/machine-learning/service/reference-azure-machine-learning-cli)
+- [Azure ML Samples](https://docs.microsoft.com/en-us/azure/machine-learning/service/samples-notebooks)
+- [Azure ML Python SDK Quickstart](https://docs.microsoft.com/en-us/azure/machine-learning/service/quickstart-create-workspace-with-python)
+- [Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/?view=vsts)
