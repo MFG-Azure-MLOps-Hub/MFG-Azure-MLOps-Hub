@@ -18,7 +18,7 @@ Nowadays we're seeing lots of shared, different MLOps solutions/templates based 
 
 In this hub, you will be able to find:
 * A [CLI](https://github.com/MFG-Azure-MLOps-Hub/CLI) tool which can help you quickly deploy [MLOpsPython](https://github.com/microsoft/MLOpsPython) and other listed MLOps templates.
-* Various MLOps templates for different business senarios collected from the manufacture industry. 
+* Lists of various MLOps templates for different business senarios collected from the manufacture industry. 
 
 Our future plan is to:
 * Collaborate with [MLOpsPython](https://github.com/microsoft/MLOpsPython) and ensure the compatiblity of [CLI](https://github.com/MFG-Azure-MLOps-Hub/CLI) tool.
